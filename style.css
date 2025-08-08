@@ -1,0 +1,53 @@
+h1 {
+  color: black;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+/* NOTA:
+Las clases se llaman con punto (.) y los ID con signo de hash (#) */
+
+body {
+  background-color: rgb(236, 228, 219);
+  height: 100vh;
+}
+
+.container {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.squary {
+  margin: auto;
+  border: 10px solid rgb(204, 174, 233);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.welcome {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  margin: 30px;
+}
+
+button {
+  margin: 20px auto;
+  padding: 3px 10px;
+  display: block;
+  border-radius: 10px;
+  border-width: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.msg {
+  margin: 35px;
+  border: solid rgb(166, 199, 223);
+  border-radius: 20px;
+  border-width: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
